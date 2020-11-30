@@ -6,6 +6,7 @@ vector<string> split_string(string);
 
 // Complete the aVeryBigSum function below.
 long aVeryBigSum(vector<long> ar) {
+  //taking sum as long and not int because the size of int is smaller and might not work for some test cases!
   long sum=0;
 
   for(int i =0;i < ar.size();i ++)
